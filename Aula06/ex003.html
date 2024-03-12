@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!-- configurações -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1º programa</title>
+   
+<!-- CSS a partir daqui. Literalmente "estilo" -->
+    <style>
+        body {
+            background-color: rgb(73, 63, 211);
+            color: white;
+            font: normal 20pt Arial;
+        }
+
+        h1 {
+            color: rgb(184, 133, 56);
+        }
+    </style>
+</head>
+<body>
+    Iniciando sistema...
+
+<!-- JAVASCRIPT a partir daqui -->
+    <script>
+// para converter NUMBER para STRING
+        // var n1= toString(...) ou
+        // var n2= String(...)
+
+// primeira maneira de converter STRING para NUMBER
+        // var n1= Number.parseInt(window.prompt("Digite primeiro número"))
+        // var n2= Number.parseInt(window.prompt("Digite outro número"))
+
+// segunda maneira de converter STRING para NUMBER
+        var n1= Number(window.prompt("Digite primeiro número"))
+        var n2= Number(window.prompt("Digite outro número"))
+        var soma= n1 + n2
+
+        // window.alert("Soma é: " + soma)
+
+// template string com placeholder
+        window.alert(`A soma é: ${soma}`)
+        var nomeUpper= "nome upperCase"
+        var nomeLower= "nome lowerCase"
+        var nomeLength= "nome com length"
+
+        window.alert(`${nomeUpper} é o upperCase, ${nomeLower} é o lowerCase e ${nomeLength} é a contagem de string.`)
+
+
+    </script>
+</body>
+</html>
